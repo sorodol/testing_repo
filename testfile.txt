@@ -1,2 +1,1 @@
-Test
 GITEXALATE-281 add a README file to the project
