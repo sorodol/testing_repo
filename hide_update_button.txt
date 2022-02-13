@@ -1,0 +1,18 @@
+<script type="text/javascript">
+(function($) {
+ 
+        hideEditButton();
+    );
+function hideEditButton () {
+       var projectKey = "JDP"; 
+               var issue = JIRA.Issue.getIssueKey();
+               if (typeof (issue) !== "undefined") {
+                var currentProject = issue.substr(0, issue.indexOf('-')); 
+                  if (currentProject == projectKey) {
+                    AJS.$("input#edit-issue-submit ").hide();
+                   }
+        }
+}
+
+})(AJS.$);
+</script>
