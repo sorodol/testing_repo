@@ -33,7 +33,7 @@ jQuery.ajax({
  
  contentType: 'application/json; charset=utf-8',
  success: function(json) {
- document.getElementById("eth").innerHTML= json.price.eur;
+ 
   
  },
  error : function(jqXHR, textStatus, errorThrown) {
