@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <Module>
 <ModulePrefs
-title="MrAddon example of JIRA Server Dashboard Gadget"
-author="Raul Pelaez raulpelaez@mraddon.com www.mraddon.com"
+title="New relic Gadget"
+author="Rodolfo SO"
 thumbnail="https://route_to_.png"
 screenshot="https://route_to.png"
 description="JIRA Server Dashboard Description">
@@ -25,7 +25,7 @@ description="JIRA Server Dashboard Description">
 <Content type="html">
 <![CDATA[
 <script type="text/javascript" src="https://code.jquery.com/jquery-1.7.2.min.js"></script>
-<iframe src="https://onenr.io/0ERz3dmnGjr" width="600" height="200" frameborder="0"></iframe>
+<iframe src="https://chart-embed.service.newrelic.com/herald/e933c777-f30f-45b6-aab8-ab79bb23a818?height=400px&timepicker=true" width="600" height="200" frameborder="0"></iframe>
 <table>
 <tr>
 <td><font align="right" color="#7c06b7">
