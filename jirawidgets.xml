@@ -25,26 +25,7 @@ description="JIRA Server Dashboard Description">
 <Content type="html">
 <![CDATA[
 <script type="text/javascript" src="https://code.jquery.com/jquery-1.7.2.min.js"></script>
-<script>
-function refresh() {
-jQuery.ajax({
- url: "https://onenr.io/0ERz3dmnGjr",
- type: "GET",
- 
- contentType: 'application/json; charset=utf-8',
- success: function(json) {
- 
-  
- },
- error : function(jqXHR, textStatus, errorThrown) {
- },
- 
- timeout: 120000,
- });
-}
- 
-refresh();
-</script>
+<iframe src="https://chart-embed.service.newrelic.com/herald/52c44270-814e-49f5-ac08-7ea776e58f50?height=200px&timepicker=true" width="600" height="200" frameborder="0"></iframe>
 <table>
 <tr>
 <td><b>ETH</b></td>
