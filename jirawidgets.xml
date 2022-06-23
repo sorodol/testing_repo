@@ -25,7 +25,7 @@ description="JIRA Server Dashboard Description">
 <Content type="html">
 <![CDATA[
 <script type="text/javascript" src="https://code.jquery.com/jquery-1.7.2.min.js"></script>
-<iframe src="https://chart-embed.service.newrelic.com/herald/a7a8e457-833b-475c-b7a7-e79cffa78145?height=400px&timepicker=true" width="800" height="200" frameborder="0"></iframe>
+<iframe src="https://chart-embed.service.newrelic.com/herald/a7a8e457-833b-475c-b7a7-e79cffa78145?height=200px&timepicker=true" width="800" height="200" frameborder="0"></iframe>
 
 <table>
 <tr>
