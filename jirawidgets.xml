@@ -29,7 +29,7 @@ description="JIRA Server Dashboard Description">
 
 <table>
 <tr>
-<iframe src="https://chart-embed.service.newrelic.com/herald/a7a8e457-833b-475c-b7a7-e79cffa78145?height=300px&timepicker=true" width="600" height="300" frameborder="0"></iframe>
+<iframe src="https://chart-embed.service.newrelic.com/herald/a7a8e457-833b-475c-b7a7-e79cffa78145?height=300px&timepicker=true" width="500" height="300" frameborder="0"></iframe>
 <td><font align="right" color="#7c06b7">
 </font></td>
 </tr>
