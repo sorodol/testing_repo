@@ -25,15 +25,28 @@ description="JIRA Server Dashboard Description">
 <Content type="html">
 <![CDATA[
 <script type="text/javascript" src="https://code.jquery.com/jquery-1.7.2.min.js"></script>
+<style>
+table, th, td {
+  border:1px solid black;
+  border-collapse: collapse;
+}
+</style>
+
+<body>
 
 
-<table>
-<tr>
-<iframe src="https://chart-embed.service.newrelic.com/herald/a7a8e457-833b-475c-b7a7-e79cffa78145?height=300px&timepicker=true" width="500" height="270" frameborder="0"></iframe>
-<td><font align="right" color="#7c06b7">
-</font></td>
-</tr>
+
+<table style="width:100%">
+  <tr>
+    <th><iframe src="https://chart-embed.service.newrelic.com/herald/a7a8e457-833b-475c-b7a7-e79cffa78145?height=300px&timepicker=true" width="500" height="270" frameborder="0"></iframe></th>
+    <th>Lastname</th> 
+    <th>Age</th>
+  </tr>
+  
 </table>
+
+</body>
+
 ]]>
 </Content>
 </Module>
