@@ -38,9 +38,9 @@ table, th, td {
 
 <table style="width:100%">
   <tr>
-    <th><iframe src="https://chart-embed.service.newrelic.com/herald/a7a8e457-833b-475c-b7a7-e79cffa78145?height=300px&timepicker=true" width="500" height="270" frameborder="0"></iframe></th>
-    <th>Lastname</th> 
-    <th>Age</th>
+    <th><iframe src="https://chart-embed.service.newrelic.com/herald/a7a8e457-833b-475c-b7a7-e79cffa78145?height=300px&timepicker=true" width="500" height="250" frameborder="0"></iframe></th>
+   <th><iframe src="https://chart-embed.service.newrelic.com/herald/a7a8e457-833b-475c-b7a7-e79cffa78145?height=300px&timepicker=true" width="500" height="250" frameborder="0"></iframe></th>
+    <th><iframe src="https://chart-embed.service.newrelic.com/herald/a7a8e457-833b-475c-b7a7-e79cffa78145?height=300px&timepicker=true" width="500" height="250" frameborder="0"></iframe></th>
   </tr>
   
 </table>
