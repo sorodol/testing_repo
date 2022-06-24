@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Module>
+<ModulePrefs
+title="New relic Gadget"
+author="Rodolfo SO"
+thumbnail="https://route_to_.png"
+screenshot="https://route_to.png"
+description="JIRA Server Dashboard Description">
+ 
+<Require feature="minimessage" />
+<Require feature="dynamic-height" />
+<Require feature="auth-refresh"/>
+<Require feature="oauthpopup" />
+<Require feature="setprefs" />
+<Require feature="settitle" />
+<Require feature="core" />
+<Require feature="core.io" />
+<Require feature="views" />
+<Optional feature="atlassian.util" />
+<Optional feature="gadget-directory">
+<Param name="categories">Other</Param>
+</Optional>
+</ModulePrefs>
+ 
+<Content type="html">
+<![CDATA[
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.7.2.min.js"></script>
+
+
+<table>
+<tr>
+<iframe src="https://chart-embed.service.newrelic.com/herald/a7a8e457-833b-475c-b7a7-e79cffa78145?height=300px&timepicker=true" width="500" height="300" frameborder="0"></iframe>
+<td><font align="right" color="#7c06b7">
+</font></td>
+</tr>
+</table>
+]]>
+</Content>
+</Module>
