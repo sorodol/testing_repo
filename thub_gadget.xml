@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Module>
+<ModulePrefs
+title="New relic Gadget"
+author="Rodolfo SO"
+thumbnail="https://route_to_.png"
+screenshot="https://route_to.png"
+description="JIRA Server Dashboard Description">
+ 
+<Require feature="minimessage" />
+<Require feature="dynamic-height" />
+<Require feature="auth-refresh"/>
+<Require feature="oauthpopup" />
+<Require feature="setprefs" />
+<Require feature="settitle" />
+<Require feature="core" />
+<Require feature="core.io" />
+<Require feature="views" />
+<Optional feature="atlassian.util" />
+<Optional feature="gadget-directory">
+<Param name="categories">Other</Param>
+</Optional>
+</ModulePrefs>
+ 
+<Content type="html">
+<![CDATA[
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.7.2.min.js"></script>
+<style>
+table, th, td {
+  border:0px solid black;
+  border-collapse: collapse;
+}
+</style>
+
+<body>
+
+
+
+<table style="width:100%">
+  <tr style="height:200px">
+    <th><iframe src="https://chart-embed.service.newrelic.com/herald/fcbaf256-3728-41d3-9213-0644ef6588f1?height=250px&timepicker=true" width="400" height="250" frameborder="0"></iframe></th>
+   <th><iframe src="https://chart-embed.service.newrelic.com/herald/607d16d7-2315-4f5b-9a8e-c354023c0da9?height=250px&timepicker=true" width="400" height="250" frameborder="0"></iframe></th>
+    
+  </tr>
+    <tr style="height:200px">
+    <th><iframe src="https://chart-embed.service.newrelic.com/herald/e2040b9e-c86e-424d-a649-b9f7dc89b5b2?height=250px&timepicker=true" width="400" height="250" frameborder="0"></iframe></th>
+   <th><iframe src="https://chart-embed.service.newrelic.com/herald/52bd24e1-87c5-4a57-8fe3-5a9107e45605?height=250px&timepicker=true" width="400" height="250" frameborder="0"></iframe></th>
+    
+  </tr>
+</table>
+
+</body>
+
+]]>
+</Content>
+</Module>
