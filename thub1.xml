@@ -3,8 +3,8 @@
 <ModulePrefs
 title="New relic Gadget"
 author="Rodolfo SO"
-thumbnail="https://route_to_.png"
-screenshot="https://route_to.png"
+thumbnail="https://github.com/sorodol/TestRod/blob/main/newrelic.png"
+screenshot="https://github.com/sorodol/TestRod/blob/main/newrelic.png"
 description="JIRA Server Dashboard Description">
  
 <Require feature="minimessage" />
