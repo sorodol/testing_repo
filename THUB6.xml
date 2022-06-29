@@ -32,7 +32,9 @@ table, th, td {
 }
 </style>
 <body>
+<font size="15" face="Courier New" >
 <table style="width:100%">
+<tr>
   <header>
     <h1>List of Production Servers use by THUB team</h1>
     <h2>DIH Servers</h2>
@@ -61,6 +63,8 @@ table, th, td {
 </ul>
   </header>
 </table>
+</tr>
+</font>
 </body>
 
 ]]>
