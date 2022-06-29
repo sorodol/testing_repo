@@ -36,30 +36,30 @@ table, th, td {
 <table style="width:50%">
 <tr>
   <header>
-    <h1>List of Production Servers use by THUB team</h1>
-    <h2>DIH Servers</h2>
+    <h1 style="font-size:30px">List of Production Servers use by THUB team</h1>
+    <h2 style="font-size:13px">DIH Servers</h2>
 <ul>
-  <li>AZWAPPCACDIH03</li>
-  <li>AZWAPPCACDIH04</li>
+  <li style="font-size:13px">AZWAPPCACDIH03</li>
+  <li style="font-size:13px">AZWAPPCACDIH04</li>
   
 </ul>  
-<h2>File Cluster Servers</h2>
+<h2 style="font-size:30px">File Cluster Servers</h2>
 <ul>
-  <li>AZWAPPCACFSR01</li>
-  <li>AZWAPPCACFSR02</li>
+  <li style="font-size:13px">AZWAPPCACFSR01</li>
+  <li style="font-size:13px">AZWAPPCACFSR02</li>
 </ul>
-<h2>Database Servers for THUB and INFA</h2>
+<h2 style="font-size:30px">Database Servers for THUB and INFA</h2>
 <ul>
-  <li>AZWDBPCACSQL04</li>
-  <li>AZWDBPCACSQL05</li>
-  <li>AZWDBPCACSQL06</li>
-  <li>AZWDBPCACSQL07</li>
-  <li>AZWDBPCACSQL08</li>
+  <li style="font-size:13px">AZWDBPCACSQL04</li>
+  <li style="font-size:13px">AZWDBPCACSQL05</li>
+  <li style="font-size:13px">AZWDBPCACSQL06</li>
+  <li style="font-size:13px">AZWDBPCACSQL07</li>
+  <li style="font-size:13px">AZWDBPCACSQL08</li>
 </ul>
-<h2>MQ servers</h2>
+<h2 style="font-size:30px">MQ servers</h2>
 <ul>
-  <li>AZWAPPCACMQP01</li>
-  <li>AZWAPPCACMQP02</li>
+  <li style="font-size:13px">AZWAPPCACMQP01</li>
+  <li style="font-size:13px">AZWAPPCACMQP02</li>
 </ul>
   </header>
 </table>
