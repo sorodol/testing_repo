@@ -34,7 +34,7 @@ table, th, td {
 </style>
 <body>
 
-<table style="width:100%">
+<table style="width:50%">
 <tr>
   <header>
     <h1>List of Production Servers use by THUB team</h1>
