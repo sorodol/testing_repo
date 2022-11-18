@@ -1,33 +1,3 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Codespaces
-Marketplace
-Explore
- 
-@sorodol 
-sorodol
-/
-testing_repo
-Public
-forked from bpantaleon/testing_repo
-Code
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-Settings
-testing_repo/Powerbi5.xml
-@sorodol
-sorodol Create Powerbi5.xml
-Latest commit 83a1220 20 minutes ago
- History
- 1 contributor
-46 lines (42 sloc)  1.29 KB
-
 <?xml version="1.0" encoding="UTF-8" ?>
 <Module>
 <ModulePrefs
@@ -72,19 +42,3 @@ table, th, td {
 </table>
 </body>
 ]]>
-</Content>
-</Module>
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
