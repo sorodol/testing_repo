@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Module>
+<ModulePrefs
+title="PowerBi7"
+author="Rodolfo SO"
+height="100%"
+width="100%"
+thumbnail="https://github.com/sorodol/TestRod/blob/main/newrelic.png"
+screenshot="https://github.com/sorodol/TestRod/blob/main/newrelic.png"
+description="JIRA Server Dashboard Description">
+
+<Require feature="minimessage" />
+<Require feature="dynamic-height" />
+<Require feature="auth-refresh"/>
+<Require feature="oauthpopup" />
+<Require feature="setprefs" />
+<Require feature="settitle" />
+<Require feature="core" />
+<Require feature="core.io" />
+<Require feature="views" />
+<Optional feature="atlassian.util" />
+<Optional feature="gadget-directory">
+<Param name="categories">Other</Param>
+</Optional>
+</ModulePrefs>
+
+<Content type="html">
+<![CDATA[
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.7.2.min.js"></script>
+<style>
+table, th, td {
+  border:0px solid black;
+  border-collapse: collapse;
+}
+</style>
+<body>
+<table style="width:100%">
+  <tr style="height:100%">
+    <th><iframe src="https://app.powerbi.com/reportEmbed?reportId=8fb4c45c-db9a-46f0-a055-e2a873727a74&appId=1849550a-0b72-4449-9a4e-9c8a46fdf3e9&autoAuth=true&ctid=5d3e2773-e07f-4432-a630-1a0f68a28a05" width="100%" height="100%" frameborder="0"></iframe></th>
+  
+    
+  </tr>
+</table>
+</body>
+]]>
+</Content>
+</Module>
